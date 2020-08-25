@@ -3,6 +3,7 @@ name: Nicolas
 surname: Mathias Hahn 
 position: "Bolsista de Iniciação Científica | Cientista de Dados (freelancer)"
 address: "Rua Pedro Weingartner 230, Apto. 401 - Rio Branco - Porto Alegre - Rs - Brasil"
+profilepic: "./img/perfil.jpg"
 phone: +55 51 9 9191 3727
 email: "nicolasmahahn@gmail.com"
 github: nmhahn

@@ -45,7 +45,7 @@ eventos = tribble(
 # hobbies
 hobbies = tribble(
   ~hobby, ~detalhe,
-  "Video Games", NA,
+  "Games", NA,
   "Xadrez", NA,
   "Investimentos", "Renda Variável",
   "Música", "Tocar Violino"
