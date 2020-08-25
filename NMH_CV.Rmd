@@ -1,0 +1,92 @@
+---
+name: Nicolas
+surname: Mathias Hahn 
+position: "Bolsista de Iniciação Científica | Cientista de Dados (freelancer)"
+address: "Rua Pedro Weingartner 230, Apto. 401 - Rio Branco - Porto Alegre - Rs - Brasil"
+phone: +55 51 9 9191 3727
+email: "nicolasmahahn@gmail.com"
+github: nmhahn
+linkedin: nmhahn
+date: "`r format(Sys.time(), '%B %Y')`"
+aboutme: "Graduando em Estatística na UFRGS, e estou no 5º semestre do curso. Perfil Analítico. Tenho afinidade e conhecimentos de programação, visualização de dados e soluções baseadas em descrição e análise de dados."
+output: vitae::awesomecv
+---
+
+```{r message=FALSE, warning=FALSE, include=FALSE}
+library(vitae)      # The CV's LaTeX Template
+library(tibble)     # Data sctructure for tribbles
+library(magrittr)   # The Pipe %>%
+library(here)       # Relative Filepaths
+library(readr)      # Data Loading
+
+options(encoding = "UTF-8")
+source(file = here("dados.R"))
+```
+
+# Objetivo
+Auxiliar corporações (clientes, parceiros) a atingirem seus resultados por meio de meus conhecimentos e aprendizados nas tecnologias de informação (principalmente na área de dados). 
+
+# Educação
+```{r EDUCAÇÃO, echo=FALSE}
+edu %>%
+  detailed_entries(
+    with = formacao,
+    what = instituicao,
+    why = detalhe,
+    when = glue::glue("{inicio} - {fim}",.na = "")
+  )
+```
+
+# Experiência
+```{r EXPERIÊNCIA, echo=FALSE}
+experiencia %>%
+  detailed_entries(
+    with = cargo,
+    what = empresa,
+    why = detalhe,
+    when = glue::glue("{inicio} - {fim}",.na = "")
+  )
+```
+
+
+# Habilidades
+```{r HABILIDADES, echo=FALSE}
+habilidades %>%
+  detailed_entries(
+    with = area,
+    what = habilidades
+  )
+```
+
+
+# Treinamentos
+```{r CURSOS, echo=FALSE}
+cursos %>%
+  detailed_entries(
+    with = curso,
+    what = instituicao,
+    why = detalhe,
+    when = glue::glue("{mes} , {ano}",.na = "")
+  )
+```
+
+# Eventos
+```{r EVENTOS, echo=FALSE}
+eventos %>%
+  detailed_entries(
+    with = evento,
+    what = instituicao,
+    why = detalhe,
+    when = glue::glue("{mes} , {ano}",.na = "")
+  )
+```
+
+
+# Hobbies
+```{r HOBBIES, echo=FALSE}
+hobbies %>%
+  detailed_entries(
+    what = hobby,
+    why = detalhe
+  )
+```
