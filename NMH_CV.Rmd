@@ -45,7 +45,7 @@ experiencia %>%
     with = cargo,
     what = empresa,
     why = detalhe,
-    when = glue::glue("{inicio} - {fim}",.na = "")
+    when = glue::glue("{inicio_mes},{inicio_ano} - {fim_ano}",.na = "")
   )
 ```
 
