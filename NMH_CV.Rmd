@@ -1,9 +1,10 @@
 ---
 name: Nicolas
 surname: Mathias Hahn 
-position: "Bolsista de Iniciação Científica | Cientista de Dados (freelancer)"
-address: "Rua Pedro Weingartner 230, Apto. 401 - Rio Branco - Porto Alegre - Rs - Brasil"
-profilepic: "./img/perfil.jpg"
+position: ""
+address: |
+         | Rua Pedro Weingartner 230, Apto. 401 - Rio Branco - Porto Alegre - Rs - Brasil
+         | Data de Nascimento: 05/11/1998
 phone: +55 51 9 9191 3727
 email: "nicolasmahahn@gmail.com"
 github: nmhahn
@@ -45,7 +46,7 @@ experiencia %>%
     with = cargo,
     what = empresa,
     why = detalhe,
-    when = glue::glue("{inicio_mes},{inicio_ano} - {fim_ano}",.na = "")
+    when = glue::glue("{inicio_mes} {inicio_ano} - {fim_mes} {fim_ano}",.na = "")
   )
 ```
 
@@ -59,7 +60,7 @@ habilidades %>%
   )
 ```
 
-
+\newpage
 # Treinamentos
 ```{r CURSOS, echo=FALSE}
 cursos %>%
@@ -67,7 +68,7 @@ cursos %>%
     with = curso,
     what = instituicao,
     why = detalhe,
-    when = glue::glue("{mes} , {ano}",.na = "")
+    when = glue::glue("{mes} {ano}",.na = "")
   )
 ```
 
@@ -78,7 +79,7 @@ eventos %>%
     with = evento,
     what = instituicao,
     why = detalhe,
-    when = glue::glue("{mes} , {ano}",.na = "")
+    when = glue::glue("{mes} {ano}",.na = "")
   )
 ```
 

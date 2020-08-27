@@ -3,17 +3,29 @@ options(encoding = "UTF-8")
 # formação (escolar e acadêmica)
 edu = tribble(
   ~formacao, ~inicio, ~fim, ~instituicao, ~detalhe,
-  "Bacharelado em Estatística", 2018, 2023, "Universidade Federal do Rio Grande do Sul - UFRGS", NA,
+  "Bacharelado em Estatística", 2018, 2023, "Universidade Federal do Rio Grande do Sul - UFRGS", "Previsão de formatura: Dezembro/2023",
   "Ensino Médio", 2014, 2016, "Colégio Marista Champagnat", NA,
 )
 
 # experiência profissional
 experiencia = tribble(
   ~cargo, ~inicio_mes, ~inicio_ano, ~fim_mes, ~fim_ano, ~empresa, ~detalhe,
-  "Cientista de Dados", "Março", 2020, NA, "momento", "3ECT - Inteligência em Dados", "Análise de Vendas (produtos mais vendidos, quais produtos são vendidos em conjunto), Previsão de Demanda, Controle de Estoque, Criação de Relatórios",
-  "Bolsista de Iniciação Científica", "Agosto", 2019, NA, "momento", "Universidade Federal do Rio Grande do Sul", "Análise de Sobrevivência" 
+  "Cientista de Dados", "Julho", 2020, "Agosto", "2020", "3ECT - Inteligência em Dados", "Previsão de Demanda",
+  "Cientista de Dados", "Julho", 2020, "Agosto", "2020", "3ECT - Inteligência em Dados", "Controle de Estoque",
+  "Cientista de Dados", "Março", 2020, "Maio", "2020", "3ECT - Inteligência em Dados", "Análise de Vendas (produtos mais vendidos, quais produtos são vendidos em conjunto)",
+  "Cientista de Dados", "Março", 2020, "Maio", "2020", "3ECT - Inteligência em Dados", "Criação de Relatórios",
+  "Bolsista de Iniciação Científica", "Agosto", 2019, "", "momento", "Universidade Federal do Rio Grande do Sul", "Análise de Sobrevivência"
 )
 
+
+# experiencia = tribble(
+#   ~cargo, ~inicio_mes, ~inicio_ano, ~fim_mes, ~fim_ano, ~empresa, ~detalhe,
+#   "Cientista de Dados", "Julho", 2020, "Agosto", 2020, "3ECT - Inteligência em Dados", "Previsão de Demanda",
+#   "Cientista de Dados", "Julho", 2020, "Agosto", 2020, "3ECT - Inteligência em Dados", "Controle de Estoque",
+#   "Cientista de Dados", "Março", 2020, "Maio", 2020, "3ECT - Inteligência em Dados", "Análise de Vendas (produtos mais vendidos, quais produtos são vendidos em conjunto)",
+#   "Cientista de Dados", "Março", 2020, "Maio", 2020, "3ECT - Inteligência em Dados", "Criação de Relatórios",
+#   "Bolsista de Iniciação Científica", "Agosto", 2019, NA, "momento", "Universidade Federal do Rio Grande do Sul", "Análise de Sobrevivência" 
+# )
 
 # habilidades
 habilidades = tribble(
