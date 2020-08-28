@@ -1,0 +1,43 @@
+---
+name: Nicolas
+surname: Mathias Hahn 
+position: ""
+address: |
+         | Rua Pedro Weingartner 230, Apto. 401 - Rio Branco - Porto Alegre - RS - Brasil
+         | Data de Nascimento: 05/11/1998
+phone: +55 51 9 9191 3727
+email: "nicolasmahahn@gmail.com"
+github: nmhahn
+linkedin: nmhahn
+date: "`r format(Sys.time(), '%B %Y')`"
+aboutme: ""
+docname: Carta de Apresentação
+output: vitae::awesomecv
+---
+
+28 de agosto de 2020
+
+&nbsp;
+
+Prezado Cristiano Sulzbach,
+
+Gostaria de me candidatar à vaga de estágio na área de modelagem de crédito da empresa Agibank. Estou matriculado no curso de bacharelado em Estatística na UFRGS, e já realizei disciplinas como "Modelos Lineares" e "Machine Learning e Modelagem Estatística"(curso de verão), que forneceram-me ótimas ferramentas para trabalhar e desenvolver modelos preditivos e classificatórios. 
+
+Além disso, sou bolsista de iniciação científica, o que permitiu expandir meus horizontes e praticar o meu aprendizado. Também tive duas experiências com consultoria com a empresa 3ECT - Inteligência em Dados, realizando análises e previsões de vendas, que permitiram auxiliar na tomada de decisões dos clientes. 
+
+Procuro me aprimorar constantemente por meio de cursos, eventos e aprendizados autodidatas, expandindo, assim, meus conhecimentos além da faculdade. Atendo aos requisitos da vaga:
+
+* Graduação em andamento em Estatística;
+* Conhecimento básico em SQL;
+* Conhecimento básico em R/Python;
+* Conhecimento em Pacote Office.
+
+Creio que meus conhecimentos podem contribuir com a área de modelagem de crédito, e adoro novos desafios.
+
+Agradeço pela atenção e espero que possamos nos encontrar para uma entrevista.
+
+&nbsp;
+
+Grato pela atenção,
+
+Nicolas

@@ -3,7 +3,7 @@ name: Nicolas
 surname: Mathias Hahn 
 position: ""
 address: |
-         | Rua Pedro Weingartner 230, Apto. 401 - Rio Branco - Porto Alegre - Rs - Brasil
+         | Rua Pedro Weingartner 230, Apto. 401 - Rio Branco - Porto Alegre - RS - Brasil
          | Data de Nascimento: 05/11/1998
 phone: +55 51 9 9191 3727
 email: "nicolasmahahn@gmail.com"
@@ -22,7 +22,7 @@ library(here)       # Relative Filepaths
 library(readr)      # Data Loading
 
 options(encoding = "UTF-8")
-source(file = here("dados.R"))
+source(file = here("CV","dados.R"))
 ```
 
 # Objetivo
