@@ -10,7 +10,7 @@ email: "nicolasmahahn@gmail.com"
 github: nmhahn
 linkedin: nmhahn
 date: "`r format(Sys.time(), '%B %Y')`"
-aboutme: "Graduando em Estatística na UFRGS, e estou no 5º semestre do curso. Perfil Analítico. Tenho afinidade e conhecimentos de programação, visualização de dados e soluções baseadas em descrição e análise de dados."
+aboutme: "Graduando em Estatística na UFRGS, e estou no 6º semestre do curso. Perfil Analítico. Tenho afinidade e conhecimentos de programação, visualização de dados e soluções baseadas em descrição e análise de dados."
 output: vitae::awesomecv
 ---
 
