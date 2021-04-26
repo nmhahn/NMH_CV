@@ -3,7 +3,7 @@ name: Nicolas
 surname: Mathias Hahn 
 position: ""
 address: |
-         | Rua Dona Leonor 99, Apto. 01 - Rio Branco - Porto Alegre - RS - Brasil
+         | Rua Dona Leonor - Rio Branco - Porto Alegre - RS - Brasil
          | Data de Nascimento: 05/11/1998
 phone: +55 51 9 9191 3727
 email: "nicolasmahahn@gmail.com"
@@ -50,7 +50,7 @@ experiencia %>%
   )
 ```
 
-
+\newpage
 # Habilidades
 ```{r HABILIDADES, echo=FALSE}
 habilidades %>%
@@ -60,7 +60,6 @@ habilidades %>%
   )
 ```
 
-\newpage
 # Treinamentos
 ```{r CURSOS, echo=FALSE}
 cursos %>%
@@ -72,6 +71,7 @@ cursos %>%
   )
 ```
 
+\newpage
 # Eventos
 ```{r EVENTOS, echo=FALSE}
 eventos %>%
@@ -82,7 +82,6 @@ eventos %>%
     when = glue::glue("{mes} {ano}",.na = "")
   )
 ```
-
 
 # Hobbies
 ```{r HOBBIES, echo=FALSE}

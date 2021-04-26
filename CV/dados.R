@@ -10,8 +10,8 @@ edu = tribble(
 # experiência profissional
 experiencia = tribble(
   ~cargo, ~inicio_mes, ~inicio_ano, ~fim_mes, ~fim_ano, ~empresa, ~detalhe,
-  "Estágio em Ciência de Dados (Sales Ops)", "Fevereiro", 2021, "", "momento", "Aegro", "",
-  "Bolsista de Iniciação Científica", "Agosto", 2019, "", "momento", "Universidade Federal do Rio Grande do Sul", "Análise de Sobrevivência",
+  "Estágio em Ciência de Dados (Sales Ops)", "Fevereiro", 2021, "", "momento", "Aegro", NA,
+  "Bolsista de Iniciação Científica", "Agosto", 2019, "Março", "2021", "Universidade Federal do Rio Grande do Sul", "Análise de Sobrevivência",
   "Cientista de Dados", "Julho", 2020, "Agosto", "2020", "3ECT - Inteligência em Dados", "Previsão de Demanda",
   "Cientista de Dados", "Julho", 2020, "Agosto", "2020", "3ECT - Inteligência em Dados", "Controle de Estoque",
   "Cientista de Dados", "Março", 2020, "Maio", "2020", "3ECT - Inteligência em Dados", "Análise de Vendas (produtos mais vendidos, quais produtos são vendidos em conjunto)",
