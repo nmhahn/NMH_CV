@@ -3,7 +3,7 @@ options(encoding = "UTF-8")
 # formação (escolar e acadêmica)
 edu = tribble(
   ~formacao, ~inicio, ~fim, ~instituicao, ~detalhe,
-  "Bacharelado em Estatística", 2018, 2023, "Universidade Federal do Rio Grande do Sul - UFRGS", "Previsão de formatura: Dezembro/2023",
+  "Estatística (Bacharelado)", 2018, 2022, "Universidade Federal do Rio Grande do Sul - UFRGS", NA,
   "Ensino Médio", 2014, 2016, "Colégio Marista Champagnat", NA,
 )
 
@@ -11,7 +11,7 @@ edu = tribble(
 experiencia = tribble(
   ~cargo, ~inicio_mes, ~inicio_ano, ~fim_mes, ~fim_ano, ~empresa, ~detalhe,
   "Estágio em Ciência de Dados (Sales Ops)", "Fevereiro", 2021, "", "momento", "Aegro", NA,
-  "Bolsista de Iniciação Científica", "Agosto", 2019, "Março", "2021", "Universidade Federal do Rio Grande do Sul", "Análise de Sobrevivência",
+  "Bolsista de Iniciação Científica", "Agosto", 2019, "Março", "2021", "Universidade Federal do Rio Grande do Sul - UFRGS", "Análise de Sobrevivência",
   "Cientista de Dados", "Julho", 2020, "Agosto", "2020", "3ECT - Inteligência em Dados", "Previsão de Demanda",
   "Cientista de Dados", "Julho", 2020, "Agosto", "2020", "3ECT - Inteligência em Dados", "Controle de Estoque",
   "Cientista de Dados", "Março", 2020, "Maio", "2020", "3ECT - Inteligência em Dados", "Análise de Vendas (produtos mais vendidos, quais produtos são vendidos em conjunto)",
@@ -21,30 +21,33 @@ experiencia = tribble(
 # habilidades
 habilidades = tribble(
   ~area, ~habilidades,
-  "Comunicação", "Boa comunicação oral e escrita, Apresentações (técnicas ou não), Criação de Dashboards, Relatórios de Análise de Dados, Visualização de Dados",
-  "Analítico", "Modelagem Estatística, Ciência de Dados",
+  "Comunicação", "Oral, Escrita, Criação de Relatórios e Dashboards",
+  "Analítico", "Modelagem Dimensional e Estatística, Análise e Ciência de Dados",
   "Linguagens de Programação", "R (avançado), Python, SQL, MATLAB, Fortran",
   "Linguagens de Marcação (Markup)", "LaTeX, Markdown, RMarkdown",
-  "Ferramentas", "Excel, Pacote Office, Power BI, Tableau, Git",
+  "Ferramentas", "Power BI (DAX, M Query), Git, Excel, Pacote Office, Tableau",
   "Idiomas", "Português (nativo), Inglês (avançado), Espanhol (iniciante)"
 )
 
 # cursos (e treinamentos)
 cursos = tribble(
   ~instituicao, ~curso, ~mes, ~ano, ~detalhe,
-  "Udemy", "Análise Técnica e Inteligência Artificial para Investimentos", "Agosto", 2020, "Online",
-  "Udemy", "Curso de Vendas Completo - Da Prospecção ao Fechamento", "Agosto", 2020, "Online",
-  "Udemy", "Formação Cientista de Dados com Python e R", "Junho", 2020, "Online",
-  "Escola Superior de Propaganda e Marketing - ESPM", "Business Analytics: Análise de Dados para Tomada de Decisão", "Fevereiro", 2020, "Presencial",
-  "Universidade Federal do Rio Grande do Sul - UFRGS", "EXCEL PARA INICIANTES", "Julho", 2018, "Presencial"
+  "Escola Conquer (Online)", "Negociação e Influência", "Novembro", 2021, NA,
+  "Data Science Academy - DSA (Online)", "Python Fundamentos para Análise de Dados (Versão 3.0)", "Novembro", 2021, NA,
+  "Data Science Academy - DSA (Online)", "Microsoft Power BI para Data Science (Versão 2.0)", "Junho", 2021, NA,
+  "Udemy (Online)", "Análise Técnica e Inteligência Artificial para Investimentos", "Agosto", 2020, NA,
+  "Udemy (Online)", "Curso de Vendas Completo - Da Prospecção ao Fechamento", "Agosto", 2020, NA,
+  "Udemy (Online)", "Formação Cientista de Dados com Python e R", "Junho", 2020, NA,
+  "Escola Superior de Propaganda e Marketing - ESPM (Presencial)", "Business Analytics: Análise de Dados para Tomada de Decisão", "Fevereiro", 2020, NA,
+  "Universidade Federal do Rio Grande do Sul - UFRGS (Presencial)", "Excel para Iniciantes", "Julho", 2018, NA
 )
 
 # eventos participados
 eventos = tribble(
   ~instituicao, ~evento, ~mes, ~ano, ~detalhe,
-  "Google Cloud", "Big Data & Machine Learning", "Junho", 2019, "Online",
-  "Pontifícia Universidade Católica do Rio Grande do Sul - PUCRS", "Feira de Ciências e Inovação do Museu de Ciências e Tecnologia da PUCRS", "Outubro", 2016, "Presencial",
-  "Universidade Federal do Rio Grande do Sul - UFRGS", "XI Salão UFRGS Jovem", "Setembro", 2016, "Presencial"
+  "Google Cloud (Online)", "Big Data & Machine Learning", "Junho", 2019, NA,
+  "Pontifícia Universidade Católica do Rio Grande do Sul - PUCRS (Presencial)", "Feira de Ciências e Inovação do Museu de Ciências e Tecnologia da PUCRS", "Outubro", 2016, NA,
+  "Universidade Federal do Rio Grande do Sul - UFRGS (Presencial)", "XI Salão UFRGS Jovem", "Setembro", 2016, NA
 )
 
 # hobbies

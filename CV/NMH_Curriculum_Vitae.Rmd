@@ -1,6 +1,6 @@
 ---
 name: Nicolas
-surname: Mathias Hahn 
+surname: Mathias Hahn
 position: ""
 address: |
          | Rua Dona Leonor - Rio Branco - Porto Alegre - RS - Brasil
@@ -10,8 +10,11 @@ email: "nicolasmahahn@gmail.com"
 github: nmhahn
 linkedin: nmhahn
 date: "`r format(Sys.time(), '%B %Y')`"
-aboutme: "Graduando em Estatística na UFRGS, e estou no 6º semestre do curso. Perfil Analítico. Tenho afinidade e conhecimentos de programação, visualização de dados e soluções baseadas em descrição e análise de dados."
-output: vitae::awesomecv
+aboutme: "Eu sou um estudante do bacharelado em Estatística e atuo na área de dados aplicando meus conhecimentos. Devido a isso, procuro sempre aprimorar minhas hard skills (estatística, machine learning, modelagem) e soft skills (comunicação, resiliência, autogestão), com o intuito de auxiliar empresas e clientes a crescerem. Por conseguinte, estou construindo minha carreira no núcleo de análise e ciência de dados."
+headcolor: 126aa1
+output: 
+  vitae::awesomecv:
+  keep_tex: true
 ---
 
 ```{r message=FALSE, warning=FALSE, include=FALSE}
@@ -24,9 +27,6 @@ library(readr)      # Data Loading
 options(encoding = "UTF-8")
 source(file = here("CV","dados.R"))
 ```
-
-# Objetivo
-Auxiliar corporações (clientes, parceiros) a atingirem seus resultados por meio de meus conhecimentos e aprendizados nas tecnologias de informação (principalmente na área de dados). 
 
 # Educação
 ```{r EDUCAÇÃO, echo=FALSE}
