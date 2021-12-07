@@ -10,11 +10,16 @@ edu = tribble(
 # experiência profissional
 experiencia = tribble(
   ~cargo, ~inicio_mes, ~inicio_ano, ~fim_mes, ~fim_ano, ~empresa, ~detalhe,
-  "Estágio em Ciência de Dados (Sales Ops)", "Fevereiro", 2021, "", "momento", "Aegro", NA,
-  "Bolsista de Iniciação Científica", "Agosto", 2019, "Março", "2021", "Universidade Federal do Rio Grande do Sul - UFRGS", "Análise de Sobrevivência",
+  "Estágio em Ciência de Dados (Sales Ops)", "Fevereiro", 2021, "", "momento", "Aegro", "Criação de Relatórios e Dashboards",
+  "Estágio em Ciência de Dados (Sales Ops)", "Fevereiro", 2021, "", "momento", "Aegro", "Garantir a Confiabilidade dos Dados",
+  "Estágio em Ciência de Dados (Sales Ops)", "Fevereiro", 2021, "", "momento", "Aegro", "Monitoramento de KPI's da Operação de Vendas",
+  "Estágio em Ciência de Dados (Sales Ops)", "Fevereiro", 2021, "", "momento", "Aegro", "Apresentação e Documentação do Material Produzido",
+  "Bolsista de Iniciação Científica", "Agosto", 2019, "Março", "2021", "Universidade Federal do Rio Grande do Sul - UFRGS", "Área: Análise de Sobrevivência",
+  "Bolsista de Iniciação Científica", "Agosto", 2019, "Março", "2021", "Universidade Federal do Rio Grande do Sul - UFRGS", "Projeto: Modelos para Dados de Sobrevivência com Censura Informativa",
+  "Bolsista de Iniciação Científica", "Agosto", 2019, "Março", "2021", "Universidade Federal do Rio Grande do Sul - UFRGS", "Atividades: simulações, revisão da literatura, comparativo de linguagens, aplicações e análise de resultados.",
   "Cientista de Dados", "Julho", 2020, "Agosto", "2020", "3ECT - Inteligência em Dados", "Previsão de Demanda",
   "Cientista de Dados", "Julho", 2020, "Agosto", "2020", "3ECT - Inteligência em Dados", "Controle de Estoque",
-  "Cientista de Dados", "Março", 2020, "Maio", "2020", "3ECT - Inteligência em Dados", "Análise de Vendas (produtos mais vendidos, quais produtos são vendidos em conjunto)",
+  "Cientista de Dados", "Março", 2020, "Maio", "2020", "3ECT - Inteligência em Dados", "Análise de Cesta de Mercado",
   "Cientista de Dados", "Março", 2020, "Maio", "2020", "3ECT - Inteligência em Dados", "Criação de Relatórios"
 )
 
@@ -53,8 +58,8 @@ eventos = tribble(
 # hobbies
 hobbies = tribble(
   ~hobby, ~detalhe,
-  "Games", NA,
-  "Xadrez", NA,
-  "Investimentos", "Renda Variável",
-  "Música", "Tocar Violino"
+  "Games", "Metroidvania, Plataforma, Souls Like, Survival Horror",
+  "Xadrez", "Medalhista em Campeonatos Amadores",
+  "Investimentos", "Renda Fixa (Tesouro Direto), Renda Variável (Ações, FII's)",
+  "Música", "Violino, Prática de Orquestra, Canto"
 )
