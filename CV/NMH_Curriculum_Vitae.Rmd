@@ -50,6 +50,7 @@ experiencia %>%
   )
 ```
 
+\newpage
 # Habilidades
 ```{r HABILIDADES, echo=FALSE}
 habilidades %>%
@@ -59,7 +60,6 @@ habilidades %>%
   )
 ```
 
-\newpage
 # Treinamentos
 ```{r CURSOS, echo=FALSE}
 cursos %>%
@@ -71,7 +71,7 @@ cursos %>%
   )
 ```
 
-
+\newpage
 # Eventos
 ```{r EVENTOS, echo=FALSE}
 eventos %>%
