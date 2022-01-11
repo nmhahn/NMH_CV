@@ -14,7 +14,7 @@ aboutme: "Eu sou um estudante do bacharelado em Estatística e atuo na área de 
 headcolor: 126aa1
 output: 
   vitae::awesomecv:
-  keep_tex: true
+    keep_tex: true
 ---
 
 ```{r message=FALSE, warning=FALSE, include=FALSE}

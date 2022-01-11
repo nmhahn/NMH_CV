@@ -10,10 +10,14 @@ edu = tribble(
 # experiência profissional
 experiencia = tribble(
   ~cargo, ~inicio_mes, ~inicio_ano, ~fim_mes, ~fim_ano, ~empresa, ~detalhe,
-  "Estágio em Ciência de Dados (Sales Ops)", "Fevereiro", 2021, "", "momento", "Aegro", "Criação de Relatórios e Dashboards",
-  "Estágio em Ciência de Dados (Sales Ops)", "Fevereiro", 2021, "", "momento", "Aegro", "Garantir a Confiabilidade dos Dados",
-  "Estágio em Ciência de Dados (Sales Ops)", "Fevereiro", 2021, "", "momento", "Aegro", "Monitoramento de KPI's da Operação de Vendas",
-  "Estágio em Ciência de Dados (Sales Ops)", "Fevereiro", 2021, "", "momento", "Aegro", "Apresentação e Documentação do Material Produzido",
+  "Analista de BI (Sales Ops)", "Janeiro", 2022, "", "momento", "Aegro", "Criação de Relatórios e Dashboards",
+  "Analista de BI (Sales Ops)", "Janeiro", 2022, "", "momento", "Aegro", "Garantir a Confiabilidade dos Dados",
+  "Analista de BI (Sales Ops)", "Janeiro", 2022, "", "momento", "Aegro", "Monitoramento de KPI's da Operação de Vendas",
+  "Analista de BI (Sales Ops)", "Janeiro", 2022, "", "momento", "Aegro", "Apresentação e Documentação do Material Produzido",
+  "Estágio em Ciência de Dados (Sales Ops)", "Fevereiro", 2021, "Janeiro", "2022", "Aegro", "Criação de Relatórios e Dashboards",
+  "Estágio em Ciência de Dados (Sales Ops)", "Fevereiro", 2021, "Janeiro", "2022", "Aegro", "Garantir a Confiabilidade dos Dados",
+  "Estágio em Ciência de Dados (Sales Ops)", "Fevereiro", 2021, "Janeiro", "2022", "Aegro", "Monitoramento de KPI's da Operação de Vendas",
+  "Estágio em Ciência de Dados (Sales Ops)", "Fevereiro", 2021, "Janeiro", "2022", "Aegro", "Apresentação e Documentação do Material Produzido",
   "Bolsista de Iniciação Científica", "Agosto", 2019, "Março", "2021", "Universidade Federal do Rio Grande do Sul - UFRGS", "Área: Análise de Sobrevivência",
   "Bolsista de Iniciação Científica", "Agosto", 2019, "Março", "2021", "Universidade Federal do Rio Grande do Sul - UFRGS", "Projeto: Modelos para Dados de Sobrevivência com Censura Informativa",
   "Bolsista de Iniciação Científica", "Agosto", 2019, "Março", "2021", "Universidade Federal do Rio Grande do Sul - UFRGS", "Atividades: simulações, revisão da literatura, comparativo de linguagens, aplicações e análise de resultados.",
