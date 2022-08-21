@@ -11,6 +11,8 @@ edu = tribble(
 experiencia = tribble(
   ~cargo, ~inicio_mes, ~inicio_ano, ~fim_mes, ~fim_ano, ~empresa, ~detalhe,
   "Analista de BI (Sales Ops)", "Janeiro", 2022, "", "momento", "Aegro", "Criação de Relatórios e Dashboards",
+  "Analista de BI (Sales Ops)", "Janeiro", 2022, "", "momento", "Aegro", "Auxiliei no Desenvolvimento da Estrutura do Departamento de Vendas no Power BI",
+  "Analista de BI (Sales Ops)", "Janeiro", 2022, "", "momento", "Aegro", "Automatizações com Power Automate (atualizações de relatórios, envios de e-mail)",
   "Analista de BI (Sales Ops)", "Janeiro", 2022, "", "momento", "Aegro", "Garantir a Confiabilidade dos Dados",
   "Analista de BI (Sales Ops)", "Janeiro", 2022, "", "momento", "Aegro", "Monitoramento de KPI's da Operação de Vendas",
   "Analista de BI (Sales Ops)", "Janeiro", 2022, "", "momento", "Aegro", "Apresentação e Documentação do Material Produzido",
@@ -34,13 +36,14 @@ habilidades = tribble(
   "Analítico", "Modelagem Dimensional e Estatística, Análise e Ciência de Dados",
   "Linguagens de Programação", "R (avançado), Python, SQL, MATLAB, Fortran",
   "Linguagens de Marcação (Markup)", "LaTeX, Markdown, RMarkdown",
-  "Ferramentas", "Power BI (DAX, M Query), Git, Excel, Pacote Office, Tableau",
+  "Ferramentas", "Power BI (DAX, M Query), Git, Power Automate, Excel, Pacote Office, Tableau",
   "Idiomas", "Português (nativo), Inglês (avançado), Espanhol (iniciante)"
 )
 
 # cursos (e treinamentos)
 cursos = tribble(
   ~instituicao, ~curso, ~mes, ~ano, ~detalhe,
+  "EF SET (Online)", "Education First Standard English Test", "Agosto", 2022, NA,
   "Escola Conquer (Online)", "Negociação e Influência", "Novembro", 2021, NA,
   "Data Science Academy - DSA (Online)", "Python Fundamentos para Análise de Dados (Versão 3.0)", "Novembro", 2021, NA,
   "Data Science Academy - DSA (Online)", "Microsoft Power BI para Data Science (Versão 2.0)", "Junho", 2021, NA,

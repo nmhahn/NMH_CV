@@ -1,2 +1,2 @@
 # CV
-Meu CV feito em RMarkdown.
+My CV developed in RMarkdown :)

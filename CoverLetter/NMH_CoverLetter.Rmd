@@ -1,0 +1,25 @@
+---
+author: Nicolas Mathias Hahn
+return-address: 
+  - Porto Alegre
+  - Rio Grande do Sul (RS)
+  - Brazil
+address:
+  - "E-mail: nicolasmahahn@gmail.com"
+  - "LinkedIn: linkedin.com/in/nmhahn"
+  - "GitHub: github.com/nmhahn"
+opening: Dear [Hiring Person]
+closing: Sincerely,
+signature: Nicolas M. Hahn
+output: 
+  komaletter::komaletter:
+    keep_tex: false
+---
+
+I have about two years of experience in data analytics, and I am eager to bring my skills to the [position]. My expertise in SQL, Power BI, R and Python,as well my statistics background, would make me a great addition to your team.
+
+In my current role at Aegro (an ag-tech company), I have worked on a number of projects that have given me a strong understanding of database management systems and business trends. I helped to develop the Sales Department Power BI structure, and did KPI analysis that contributed to some of the best results since the start of the company.
+
+During my BS in Statistics, I also worked on projects that have developed my statistical data analysis, data science and machine learning knowledge. Some examples are survival analysis, forecasting, credit score analysis and NLP.
+
+I would love the opportunity to discuss some of your upcoming projects and how my skills could help. Please feel free to contact me to arrange a time to chat. Thank you very much for your time and consideration.
