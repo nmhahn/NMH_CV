@@ -4,13 +4,14 @@ surname: Mathias Hahn
 position: ""
 address: |
          | Av. Protásio Alves - Rio Branco - Porto Alegre - RS - Brasil
-         | Data de Nascimento: 05/11/1998
 phone: +55 51 9 9191 3727
 email: "nicolasmahahn@gmail.com"
 github: nmhahn
 linkedin: nmhahn
 date: "`r format(Sys.time(), '%B %Y')`"
-aboutme: "Eu sou um estudante do bacharelado em Estatística e atuo na área de dados aplicando meus conhecimentos. Devido a isso, procuro sempre aprimorar minhas hard skills (estatística, machine learning, modelagem) e soft skills (comunicação, resiliência, autogestão), com o intuito de me desenvolver. Estou construindo minha carreira no núcleo de análise e ciência de dados."
+aboutme: | 
+         | Sou um profissional com formação em Estatística e atuo como Cientista de Dados. Sendo assim, busco aprimorar minhas hard skills (estatística, machine learning, modelagem) e soft skills (comunicação, resiliência, autogestão), me desenvolvendo continuamente. 
+         | Além disso, estou construindo minha carreira na área de Dados.
 headcolor: 126aa1
 output: 
   vitae::awesomecv:
